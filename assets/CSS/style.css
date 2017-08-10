@@ -6,13 +6,26 @@ h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: #4aaaa5;
+
 }
 
+body {
+	background: url(assets/images/seigaiha.png);
+}
+
+.navbar-header a {
+	font-size:35px;
+}
 .navbar {
   background: #4aaaa5;
   padding-bottom: 20px;
 }
 
+.navbar li {
+	font-size:20px;
+	font-weight: bold;
+	color: white;
+}
 
 .footer {
   position: absolute;
@@ -26,3 +39,4 @@ h3 {
 	text-align: center;
 	margin-top:30px;
 }
+
